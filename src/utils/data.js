@@ -1,6 +1,28 @@
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { CiMobile1 } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
+export const logo = [
+  {
+    name: "Website logo",
+    img: "./logo.png",
+  }
+];
+export const heroImages = [
+  { img: './showCase1.jpg' },
+  { img: './showCase2.jpg' },
+  { img: './1.jpg' },
+];
+//for hero slider
+export const sliderSetting = {
+  dots: false,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  fade: true,
+};
 export const projectExperience = [
   {
     name: "Website Design",

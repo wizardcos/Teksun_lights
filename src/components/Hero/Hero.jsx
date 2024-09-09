@@ -1,58 +1,34 @@
 import React from "react";
-import { fadeIn, slideIn, staggerContainer } from "../../utils/motion";
+import { heroImages, sliderSetting } from "../../utils/data"; // Assuming data.js has heroImages
 import css from "./Hero.module.scss";
+import Slider from "react-slick";
 import { motion } from "framer-motion";
+import { staggerChildren, textVariant } from "../../utils/motion";
+
 const Hero = () => {
   return (
-    <section className={`paddings ${css.wrapper}`}>
+    <motion.section
+      variants={staggerChildren}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      className={css.wrapper}
+    >
+      <a className="anchor" id="hero"></a>
+
       <motion.div
-        variants={staggerContainer}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
+        variants={textVariant}
         className={`innerWidth ${css.container}`}
       >
-        <div className={css.upperElements}>
-          <motion.span className="primaryText" variants={fadeIn("right", "tween", 0.2, 1)}>
-            Hey There,
-            <br />
-            I'm Binjan.
-          </motion.span>
-          <motion.span className="secondaryText"variants={fadeIn("left", "tween", 0.4, 1)}>
-            I design beautiful simple
-            <br />
-            things, And I love what i do{" "}
-          </motion.span>
-        </div>
-
-        <motion.div
-          variants={fadeIn("up", "tween", 0.3, 1)}
-          className={css.person}
-        >
-          <motion.img variants={slideIn("up", "tween", 0.5, 1.3)} src="./person.png" alt="" />
-        </motion.div>
-
-        <a className={css.email} href="mailto:zainkeepscode@gmail.com">
-          zainkeepscode@gmail.com
-        </a>
-
-        <div className={css.lowerElements}>
-          <motion.div variants={fadeIn("right", "tween", 0.3, 1)} className={css.experience}>
-            <div className="primaryText">10</div>
-            <div className="secondaryText">
-              <div>Years</div>
-              <div>Experience</div>
+        <Slider {...sliderSetting} className={css.slider}>
+          {heroImages.map((image, i) => (
+            <div key={i} className={css.heroSlide}>
+              <img src={image.img} alt={`Slide ${i}`} />
             </div>
-          </motion.div>
-
-          <motion.div variants={fadeIn("left", "tween", 0.5, 1)} className={css.certificate}>
-            <img src="./certificate.png" alt="" />
-            <span>CERTIFIED PROFATIONAL</span>
-            <span>UI/UX DESIGNER</span>
-          </motion.div>
-        </div>
+          ))}
+        </Slider>
       </motion.div>
-    </section>
+    </motion.section>
   );
 };
 

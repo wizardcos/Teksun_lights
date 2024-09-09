@@ -1,66 +1,79 @@
-@import '../../styles/contants.scss';
-
 .wrapper {
-    .container {
-        flex-direction: column;
-        gap: 2rem;
-
-        .experiences {
-            width: 100%;
-            flex-direction: column;
-            gap: 1.4rem;
-            position: relative;
-
-            .exp {
-                width: 100%;
-                justify-content: space-between;
-                line-height: 40px;
-                align-items: flex-start;
-
-                >div {
-                    flex: 1;
-                }
-
-                .role {
-                    margin-left: 2rem;
-                }
-            }
-
-            .progressbar {
-                position: absolute;
-                height: 100%;
-                display: flex;
-                flex-direction: column;
-                gap: 1.4rem;
-                left: 45%;
-
-                .line {
-                    position: absolute;
-                    height: 92%;
-                    width: 2px;
-                    background-image: linear-gradient(black 33%, rgba(255, 255, 255, 0) 0%);
-                    background-position: right;
-                    background-size: 2px 30px;
-                    background-repeat: repeat-y;
-                    left: 48%;
-                    z-index: 1;
-                    border-radius: 5px;
-                }
-
-                >div {
-                    flex: 1;
-                    padding-top: .8rem;
-                    z-index: 2;
-
-                    .circle {
-                        border-radius: 50%;
-                        background: black;
-                        width: 1.2rem;
-                        height: 1.2rem;
-                    }
-                }
-            }
-        }
-
-    }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f7f9fb;
 }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 40px;
+}
+
+.textSection {
+  width: 50%;
+}
+
+.primaryText {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.secondaryText {
+  font-size: 1.25rem;
+  color: #666;
+}
+
+.imageScroller {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  height: 95 vh; /* Limit height to make scrolling visible */
+  overflow-y: auto; /* Enable scrolling */
+  gap: 14px; /* Space between images */
+}
+
+.imageWrapper {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+.primaryTex{
+    margin: 2rem 1rem 1rem;
+    display: flex;
+}
+.primaryTex img{
+    margin-right: 10px;
+}
+.primaryText {
+    @media (max-width: 640px) {
+      font-size: 2.5rem;
+    }
+    font-size: 3rem;
+    font-weight: bold;
+   
+  }
+  
+  .secondaryText {
+    @media (max-width: 640px) {
+      font-size: 1rem;
+      line-height: 25px;
+    }
+    line-height: 25px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 3rem;
+  }
