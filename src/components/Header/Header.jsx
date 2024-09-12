@@ -28,7 +28,7 @@ const Header = () => {
     >
       <div className={`innerWidth ${css.container} flexCenter`}>
         <div className={css.logo}>
-          <img src="../public/logo.png" />
+          <img src="./public/logo.png" />
           <div className={css.name}>TEKSUN</div>
         </div>
         <ul
