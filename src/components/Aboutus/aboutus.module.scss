@@ -1,0 +1,114 @@
+.about_us_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .company_profile {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  
+  .company_info {
+    max-width: 50%;
+  }
+  
+  .company_info h2 {
+    font-size: 2.5rem;
+    color: #FF7F00;
+  }
+  
+  .company_info p {
+    font-size: 1.1rem;
+    margin: 15px 0;
+  }
+  
+  .learn_more {
+    background-color: #FF7F00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .stat_box {
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  .stat_box h3 {
+    font-size: 2.2rem;
+    color: #FF7F00;
+  }
+  
+  .certificates {
+    margin-bottom: 50px;
+  }
+  
+  .certificates h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .certificate_grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .certificate_grid img {
+    width: 30%;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .factory_tour h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .factory_images {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .factory_images img {
+    width: 45%;
+    border-radius: 8px;
+  }
+  .youtube_video {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .youtube_video h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .video_wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background-color: #000;
+  }
+  
+  .video_wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  

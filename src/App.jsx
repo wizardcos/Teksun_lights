@@ -1,24 +1,23 @@
 import React from "react";
-import Experties from "./components/Experties/Experties";
-import Footer from "./components/Footer/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
-import People from "./components/People/People";
-import Portfolio from "./components/Portfolio/Portfolio";
-import Work from "./components/Work/Work";
-import css from "./styles/App.module.scss";
+import Footer from "./components/Footer/Footer";
+import AboutUs from "./components/Aboutus/Aboutus";
+import Home from "./Home";
+import Projects from "./Projects";
+import "./styles/App.module.scss";
+
 const App = () => {
-  //don't forget to add font link in index.html
   return (
-    <div className={`bg-primary ${css.container}`}>
+    <Router>
       <Header />
-      <Hero />
-      <Experties />
-      <Work />
-      <Portfolio />
-      <People />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="/Aboutus" element={<AboutUs />} />
+      </Routes>
       <Footer />
-    </div>
+    </Router>
   );
 };
 

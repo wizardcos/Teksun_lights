@@ -23,53 +23,67 @@ export const sliderSetting = {
   autoplaySpeed: 3000,
   fade: true,
 };
-export const projectExperience = [
-  {
-    name: "Website Design",
-    projects: 76,
-    icon: HiOutlineDesktopComputer,
-    bg: "#286F6C",
-  },
-  {
-    name: "Mobile App Design",
-    projects: 63,
-    icon: CiMobile1,
-    bg: "#EEC048",
-  },
-  {
-    name: "Brand Identity",
-    projects: 47,
-    icon: MdWorkspacesOutline,
-    bg: "#F26440",
-  },
-];
 
-export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
-];
-
-export const workExp = [
+export const cardData = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+    title: 'Plan',
+    description: 'Lorem ipsum dolor sit amet.',
+    imgSrc: './showCase1.jpg',
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+    title: 'Play',
+    description: 'Lorem ipsum dolor sit amet.',
+    imgSrc: './showCase1.jpg',
   },
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+    title: 'Connect',
+    description: 'Lorem ipsum dolor sit amet.',
+    imgSrc: './showCase1.jpg',
+  },
+  {
+    title: 'Support',
+    description: 'Lorem ipsum dolor sit amet.',
+    imgSrc: './showCase1.jpg',
+  },
+  {
+    title: 'Plan',
+    description: 'Lorem ipsum dolor sit amet.',
+    imgSrc: './showCase1.jpg',
+  },
+  {
+    title: 'Play',
+    description: 'Lorem ipsum dolor sit amet.',
+    imgSrc: './showCase1.jpg',
+  },
+  {
+    title: 'Connect',
+    description: 'Lorem ipsum dolor sit amet.',
+    imgSrc: './showCase1.jpg',
+  },
+  {
+    title: 'Support',
+    description: 'Lorem ipsum dolor sit amet.',
+    imgSrc: './showCase1.jpg',
+  },
+  {
+    title: 'Plan',
+    description: 'Lorem ipsum dolor sit amet.',
+    imgSrc: './showCase1.jpg',
+  },
+  {
+    title: 'Play',
+    description: 'Lorem ipsum dolor sit amet.',
+    imgSrc: './showCase1.jpg',
+  },
+  {
+    title: 'Connect',
+    description: 'Lorem ipsum dolor sit amet.',
+    imgSrc: './showCase1.jpg',
+  },
+  {
+    title: 'Support',
+    description: 'Lorem ipsum dolor sit amet.',
+    imgSrc: './showCase1.jpg',
   },
 ];
 
