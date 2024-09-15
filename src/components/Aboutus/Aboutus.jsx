@@ -78,6 +78,20 @@ const AboutUs = () => {
           <img src="./showCase1.jpg" alt="Factory Machines" />
         </motion.div>
       </section>
+      <section className={css.youtube_video}>
+        <h2>Watch Our Factory Operations</h2>
+        <div className={css.video_wrapper}>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/T2jWqS1dDkk"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </section>
     </div>
   );
 };
