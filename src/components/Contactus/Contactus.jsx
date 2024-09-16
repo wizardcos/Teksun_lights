@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import css from "./ContactUs.module.scss";
-import emailjs from "emailjs-com";
+import emailjs from "emailjs-com"; // Make sure you have installed EmailJS using npm: `npm install emailjs-com`
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -16,8 +16,38 @@ const ContactUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
-    alert("Your message has been sent!");
+
+    const templateParams = {
+      from_name: formData.name,
+      from_email: formData.email,
+      subject: formData.subject,
+      message: formData.message,
+    };
+
+    emailjs
+      .send(
+        "service_xw53s4a", // Service ID
+        "template_pb9ujr9", // Template ID
+        templateParams,
+        "UmvWK7KiJVDv9nrZ_" // Public Key (formerly User ID)
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Your message has been sent!");
+          // Clear the form fields
+          setFormData({
+            name: "",
+            email: "",
+            subject: "",
+            message: "",
+          });
+        },
+        (error) => {
+          console.log(error.text);
+          alert("An error occurred, please try again.");
+        }
+      );
   };
 
   return (
