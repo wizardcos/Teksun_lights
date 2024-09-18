@@ -22,8 +22,8 @@ const AboutUs = () => {
             High Power LED Tunnel Light, LED Corn Light, LED High Bay, LED Down
             Light, LED Tube Light to the other LED lights, which qualify us to
             be one of the largest manufacturers, suppliers and exporters of LED
-            lighting and solar lights in China, as well as the leading provider
-            in energy-saving solutions.
+            lighting and solar lights in Pakistan, as well as the leading
+            provider in energy-saving solutions.
           </p>
           <button className={css.learn_more}>Learn More</button>
         </motion.div>
