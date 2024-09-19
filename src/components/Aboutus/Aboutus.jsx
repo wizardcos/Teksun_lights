@@ -38,11 +38,11 @@ const AboutUs = () => {
             <p>Employees Worldwide</p>
           </div>
           <div className={css.stat_box}>
-            <h3>126</h3>
+            <h3>120+</h3>
             <p>Satisfaction Clients On</p>
           </div>
           <div className={css.stat_box}>
-            <h3>12</h3>
+            <h3>12+</h3>
             <p>Years Experience</p>
           </div>
           <div className={css.stat_box}>
@@ -67,7 +67,7 @@ const AboutUs = () => {
       </section>
 
       <section className={css.factory_tour}>
-        <h2>Factory Tour</h2>
+        <h2>Our Factory Tour</h2>
         <motion.div
           className={css.factory_images}
           initial={{ opacity: 0, y: 50 }}
