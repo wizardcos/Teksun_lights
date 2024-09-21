@@ -1,6 +1,7 @@
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { CiMobile1 } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
+
 export const logo = [
   {
     name: "Website logo",
@@ -150,6 +151,50 @@ export const comments = [
     comment:
       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     img: "./people2.png",
+  },
+];
+export const products = [
+  {
+    id: 1,
+    name: "Solar Panel",
+    image: "./Street Light2-01.jpg",
+    description: "High-efficiency solar panel.",
+  },
+  {
+    id: 2,
+    name: "LED Light",
+    image: "./Street Light3-01.jpg",
+    description: "Energy-saving LED light.",
+  },
+  {
+    id: 3,
+    name: "Inverter",
+    image: "./Street Light4-01.jpg",
+    description: "Advanced power inverter.",
+  },
+  {
+    id: 4,
+    name: "Battery Storage",
+    image: "./Street Light5-01.jpg",
+    description: "Long-lasting battery storage.",
+  },
+  {
+    id: 5,
+    name: "Solar Charger",
+    image: "./Street Light6-01.jpg",
+    description: "Efficient solar charger.",
+  },
+  {
+    id: 6,
+    name: "LED Light",
+    image: "./Street Light6-01.jpg",
+    description: "Efficient solar charger.",
+  },
+  {
+    id: 7,
+    name: "Solar Panel",
+    image: "./Street Light6-01.jpg",
+    description: "Efficient solar charger.",
   },
 ];
 

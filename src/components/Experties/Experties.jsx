@@ -1,51 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import css from "./Experties.module.scss"; // Assuming you have your styles in place
-
-const products = [
-  {
-    id: 1,
-    name: "Solar Panel",
-    image: "./Street Light2-01.jpg",
-    description: "High-efficiency solar panel.",
-  },
-  {
-    id: 2,
-    name: "LED Light",
-    image: "./Street Light3-01.jpg",
-    description: "Energy-saving LED light.",
-  },
-  {
-    id: 3,
-    name: "Inverter",
-    image: "./Street Light4-01.jpg",
-    description: "Advanced power inverter.",
-  },
-  {
-    id: 4,
-    name: "Battery Storage",
-    image: "./Street Light5-01.jpg",
-    description: "Long-lasting battery storage.",
-  },
-  {
-    id: 5,
-    name: "Solar Charger",
-    image: "./Street Light6-01.jpg",
-    description: "Efficient solar charger.",
-  },
-  {
-    id: 5,
-    name: "LED Light",
-    image: "./Street Light6-01.jpg",
-    description: "Efficient solar charger.",
-  },
-  {
-    id: 5,
-    name: "Solar Panel",
-    image: "./Street Light6-01.jpg",
-    description: "Efficient solar charger.",
-  },
-];
+import { products } from "../../utils/data";
 
 // Define animation variants for heading and cards
 const fromLeft = {
@@ -63,8 +19,8 @@ const Experties = () => {
   return (
     <motion.section
       initial="hidden"
-      whileInView="visible" // Trigger animation when in view
-      viewport={{ once: false, amount: 0.5 }} // Re-trigger animation each time it's in view
+      whileInView="visible"
+      viewport={{ once: false, amount: 0.5 }}
       className={`paddings ${css.wrapper}`}
     >
       <div className={`innerWidth ${css.container}`}>
