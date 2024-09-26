@@ -34,10 +34,10 @@ const Experties = () => {
           {products.map((product) => (
             <motion.div
               key={product.id}
-              variants={fromLeft} // Use the fromLeft animation for product cards
+              variants={fromLeft}
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: false, amount: 0.3 }} // Re-trigger each time products are in view
+              viewport={{ once: false, amount: 0.3 }}
               whileHover="hover"
               className={css.productCard}
             >
