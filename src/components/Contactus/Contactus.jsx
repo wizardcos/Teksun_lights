@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import css from "./ContactUs.module.scss";
-import emailjs from "emailjs-com"; // Ensure EmailJS is installed
-import { motion } from "framer-motion"; // Ensure Framer Motion is installed (`npm install framer-motion`)
+import emailjs from "emailjs-com";
+import { motion } from "framer-motion";
 
-const ContactUs = () => {
+const contactus = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -164,4 +164,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default contactus;
