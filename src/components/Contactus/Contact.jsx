@@ -3,7 +3,7 @@ import css from "./ContactUs.module.scss";
 import emailjs from "emailjs-com";
 import { motion } from "framer-motion";
 
-const contactus = () => {
+const ContactUs = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -164,4 +164,4 @@ const contactus = () => {
   );
 };
 
-export default contactus;
+export default ContactUs;
