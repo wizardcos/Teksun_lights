@@ -87,72 +87,58 @@ export const cardData = [
     imgSrc: './showCase1.jpg',
   },
 ];
-
 export const comments = [
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Faisal Hills",
+    post: "Residential Society",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "Delivered high-quality lighting solutions to enhance residential areas and public spaces within the society.",
+    img: "./FH.jpeg",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "AHL Oil Refinery",
+    post: "Company",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+      "Successfully installed customized lighting systems across the AHL Oil Refinery, ensuring well-lit, safe, and efficient operational areas.",
+    img: "./AHL.jpeg",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Osis",
+    post: "Residential Society",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "Provided a range of solar and conventional lights to brighten key areas, improving the aesthetic and safety of Osis residential zones.",
+    img: "./osis.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "CDA",
+    post: "Government Organization",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+      "Partnered with CDA to deliver efficient lighting installations in government-maintained public areas, enhancing visibility and safety for all.",
+    img: "./CDA.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Abdullah Garden",
+    post: "Residential Society",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "Delivered advanced lighting systems to illuminate Abdullah Garden, making it safer and more welcoming for residents.",
+    img: "./AG.jpeg",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "DHA Islamabad",
+    post: "Residential Society",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+      "Installed high-quality poles and lighting solutions across DHA Islamabad, elevating both the functionality and appearance of community spaces.",
+    img: "./DHA.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Bahria Town",
+    post: "Residential Society",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "Implemented a comprehensive range of poles and lights throughout Bahria Town, enhancing public areas and creating a modern, well-lit environment.",
+    img: "./BT.png",
   },
 ];
+
 export const products = [
   {
     id: 1,
