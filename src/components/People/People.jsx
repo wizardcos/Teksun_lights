@@ -23,9 +23,9 @@ const People = () => {
         <div className={`flexCenter ${css.heading}`}>
           <span className="primaryText">People talk about us</span>
           <p style={{ marginTop: "2rem" }}>
-            I got a job that was in accordance with the salary and field of work
+          We specialize in providing high-quality lighting and pole solutions</p><p> for residential societies, government organizations, and industrial projects. 
           </p>
-          <p>The process of submitting an appilication was quite cosy</p>
+          <p>With a commitment to reliability and excellence, we illuminate spaces to enhance safety,</p><p>  functionality, and aesthetic appeal.</p>
         </div>
 
 
