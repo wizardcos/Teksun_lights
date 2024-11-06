@@ -57,8 +57,6 @@ const Header = () => {
             <BiPhoneCall size={"40px"} />
           </li>
         </ul>
-
-        {/* for medium and small screens */}
         <div
           className={css.menuIcon}
           onClick={() => setMenuOpened((prev) => !prev)}
