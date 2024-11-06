@@ -221,3 +221,129 @@ export const sliderSettings = {
     },
   ],
 };
+export const solarproduct = [
+  {
+    id: 1,
+    name: "60W" ,
+    image: "",
+    description: "",
+  },
+  {
+    id: 2,
+    name: "80W",
+    image: "",
+    description: "",
+  },
+  {
+   id: 3,
+   name: "150W",
+   image: "",
+   description: "",
+  },
+
+];
+  
+export const conventional_light =[
+  {
+   id: 1,
+   name: "Teksun light",
+   power: "100-200W",
+   image: "",
+   description: ""
+  },
+  {
+    id: 2,
+    name: "",
+    power: "",
+    image: "",
+    description: ""
+  },
+  {
+    id: 3,
+    name: "",
+    power: "",
+    image: "",
+    description: ""
+  },
+
+];
+
+export const garden_lights =[
+  {
+    id: 1,
+    name: "",
+    desciption: "",
+  },
+  {
+    id: 2,
+    name: "",
+    desciption: "",
+  },
+  {
+    id: 3,
+    name: "",
+    desciption: "",
+  },
+];
+export const animal = [
+  {
+    id: 1,
+    name: "",
+    image: "",
+    description: ""
+  },
+  {
+    id: 2,
+    name: "",
+    image: "",
+    description: ""
+  },
+  {
+    id: 3,
+    name: "",
+    image: "",
+    description: ""
+  },
+
+];
+export const pole = [
+{
+  id: 1,
+  name: "",
+  image: "",
+  desciption: ""
+},
+{
+  id: 2,
+  name: "",
+  image: "",
+  desciption: ""
+},
+{
+  id: 3,
+  name: "",
+  image: "",
+  desciption: ""
+}
+];
+export const fancy_pole =[
+{
+  id: 1,
+  name: "",
+  image: "",
+  description: "", 
+},
+{
+  id: 2,
+  name: "",
+  image: "",
+  description: "", 
+},
+{
+  id: 3,
+  name: "",
+  image: "",
+  description: "", 
+},
+  
+] ;
